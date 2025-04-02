@@ -3,7 +3,7 @@ import Spinz from "../Components/Spinz"
 function Terms()
 {
     return(<>
-    <div className="mt-[60px]">
+    <div className="mt-[60px] ">
     <Spinz/>
     <h1 className="text-[22px] font-open p-5" style={{fontWeight:"700"}}>Terms of Service</h1>
     <div className="text-[13px] font-inter p-5 indent-12">
@@ -13,8 +13,8 @@ function Terms()
     <p className="mb-1">You may opt out of such communications at any time. Cavinkart makes no warranties regarding the suitability of the product, and users are advised to check ingredients for potential allergens before use. Cavinkart shall not be held liable for any reactions, damages, or losses arising from the use of the sample. In case of disputes, Cavinkart’s</p>
     </div>
     <div className="flex justify-center items-center gap-10">
-        <button className="bg-baby p-[10px] text-[#ED174FCC] rounded-full w-[160px] h-[52px] border border-[#ED174FCC]">Disagree</button>
-        <button>Agree&Continue</button>
+        <button className="bg-baby p-[10px] text-[#ED174FCC] rounded-full w-[160px] h-[52px] border border-[#ED174FCC] text-[14px] font-semibold">Disagree</button>
+        <button className="bg-dark p-[10px] w-[160px] h-[52px] rounded-full text-white text-[14px] font-semibold">Agree & Continue</button>
     </div>
     </div>
     </>)
