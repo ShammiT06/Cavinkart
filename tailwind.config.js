@@ -6,7 +6,11 @@ export default {
       fontFamily:{
         open:["Open Sans","sans-serif"],
         inter:[ "Inter", "sans-serif"]
-      }
+      },
+      backgroundColor:{
+        baby:"#A246BB14",
+        dark:"#ED174FCC",
+      },
     },
   },
   plugins: [],
