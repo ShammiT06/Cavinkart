@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom"
 import Spinz from "../Components/Spinz"
 
+
 function Terms() {
+
+
+
+
     return (<>
         <div className="mt-[60px] ">
             <Spinz />
