@@ -4,7 +4,11 @@ import "../Css/camera.css";
 
 function Camera() {
     const openCameraApp = () => {
-        window.location.href = "intent://#Intent;action=android.media.action.IMAGE_CAPTURE;end";
+        const cameraInput = document.createElement("input");
+        cameraInput.type = "file";
+        cameraInput.accept = "image/*";
+        cameraInput.capture = "environment"; // Opens back camera
+        cameraInput.click();
     };
 
     return (
