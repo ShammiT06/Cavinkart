@@ -3,13 +3,8 @@ import Reusablespinz from "../Components/Reusablespinz";
 import "../Css/camera.css";
 
 function Camera() {
-    const openCameraApp = () => {
-        const cameraInput = document.createElement("input");
-        cameraInput.type = "file";
-        cameraInput.accept = "image/*";
-        cameraInput.capture = "environment"; // Opens back camera
-        cameraInput.click();
-    };
+  
+
 
     return (
         <>
@@ -31,6 +26,7 @@ function Camera() {
                         <button
                             className="border border-[#787878] w-[260px] h-[44px] text-[#5A91F7] rounded-br-2xl"
                             // onClick={openCameraApp}
+
                             
                         ><Link to={'/loc'}>Ok</Link>
                         </button>
