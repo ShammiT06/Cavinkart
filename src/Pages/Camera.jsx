@@ -3,10 +3,7 @@ import Reusablespinz from "../Components/Reusablespinz";
 import "../Css/camera.css";
 
 function Camera() {
-  
-
-
-    return (
+   return (
         <>
             <Reusablespinz />
             <div className="bg-opacity-60 bg-gray-800 flex justify-center items-center" id="cam">
